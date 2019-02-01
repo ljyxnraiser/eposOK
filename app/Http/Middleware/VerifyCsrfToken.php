@@ -13,5 +13,6 @@ class VerifyCsrfToken extends BaseVerifier
      */
     protected $except = [
         'geturl',
+        'clientlogon',
     ];
 }

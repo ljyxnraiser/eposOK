@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::get('/user','userController@User');
 
 Route::post('/geturl','userController@GetUrl');
+Route::post('/clientlogon','userController@clientLogon');
