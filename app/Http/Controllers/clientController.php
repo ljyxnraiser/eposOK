@@ -1,18 +1,20 @@
 <?php
 
 namespace App\Http\Controllers;
-
+//use  Illuminate\Http\Request;
 use App\client_info;
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
+use Request;
 use App\Http\Controllers\Controller;
 
 class clientController extends Controller
 {
-    public  function clientLogon(){
-        $client_info=new client_info();
-      return  $client_info['client_id'];
+
+    public function postRegister( ){
+        $re=new client_info();
+       // $re->postRegister();
+        return $re->postRegister();
+
 
     }
+
 }
