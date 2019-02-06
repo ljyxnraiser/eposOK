@@ -10,8 +10,8 @@ class ComposerStaticInit4c2855155719fc9cdc1744fea78445c0
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
@@ -265,6 +265,10 @@ class ComposerStaticInit4c2855155719fc9cdc1744fea78445c0
         ),
         'W' => 
         array (
+            'Webpatser\\Uuid' => 
+            array (
+                0 => __DIR__ . '/..' . '/webpatser/laravel-uuid/src',
+            ),
             'Way\\Generators' => 
             array (
                 0 => __DIR__ . '/..' . '/xethron/laravel-4-generators/src',
@@ -357,6 +361,7 @@ class ComposerStaticInit4c2855155719fc9cdc1744fea78445c0
         'ClassPreloader\\Parser\\FileVisitor' => __DIR__ . '/..' . '/classpreloader/classpreloader/src/Parser/FileVisitor.php',
         'ClassPreloader\\Parser\\NodeTraverser' => __DIR__ . '/..' . '/classpreloader/classpreloader/src/Parser/NodeTraverser.php',
         'ClassPreloader\\Parser\\StrictTypesVisitor' => __DIR__ . '/..' . '/classpreloader/classpreloader/src/Parser/StrictTypesVisitor.php',
+        'CreateClientInfoTable' => __DIR__ . '/../..' . '/database/migrations/2019_02_06_042309_create_client_info_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
@@ -722,6 +727,7 @@ class ComposerStaticInit4c2855155719fc9cdc1744fea78445c0
         'Dotenv\\Exception\\InvalidPathException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/InvalidPathException.php',
         'Dotenv\\Exception\\ValidationException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ValidationException.php',
         'Dotenv\\Loader' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Loader.php',
+        'Dotenv\\Parser' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Parser.php',
         'Dotenv\\Validator' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Validator.php',
         'Faker\\Calculator\\Iban' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Iban.php',
         'Faker\\Calculator\\Inn' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Inn.php',
@@ -3398,6 +3404,9 @@ class ComposerStaticInit4c2855155719fc9cdc1744fea78445c0
         'Way\\Generators\\Templates\\Data\\Controller' => __DIR__ . '/..' . '/xethron/laravel-4-generators/src/Way/Generators/templates/Data/Controller.php',
         'Way\\Generators\\Templates\\Data\\Migration' => __DIR__ . '/..' . '/xethron/laravel-4-generators/src/Way/Generators/templates/Data/Migration.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
+        'Webpatser\\Uuid\\Uuid' => __DIR__ . '/..' . '/webpatser/laravel-uuid/src/Webpatser/Uuid/Uuid.php',
+        'Webpatser\\Uuid\\UuidFacade' => __DIR__ . '/..' . '/webpatser/laravel-uuid/src/Webpatser/Uuid/UuidFacade.php',
+        'Webpatser\\Uuid\\UuidServiceProvider' => __DIR__ . '/..' . '/webpatser/laravel-uuid/src/Webpatser/Uuid/UuidServiceProvider.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
         'Xethron\\MigrationsGenerator\\Generators\\FieldGenerator' => __DIR__ . '/..' . '/xethron/migrations-generator/src/Xethron/MigrationsGenerator/Generators/FieldGenerator.php',
         'Xethron\\MigrationsGenerator\\Generators\\ForeignKeyGenerator' => __DIR__ . '/..' . '/xethron/migrations-generator/src/Xethron/MigrationsGenerator/Generators/ForeignKeyGenerator.php',

@@ -7,6 +7,7 @@ use Request;
 use DB;
 use App\Http\Controllers\Controller;
 
+
 class clientController extends Controller
 {
 
@@ -15,11 +16,7 @@ class clientController extends Controller
        // $re->postRegister();
         return $re->postRegister();
     }
-    //生成唯一标识ID
-    public function uniqIDfunction(){
-      uniqid(microtime());
 
-    }
     //插入数据
     public function SignUp(){
        $headerType= Request::header('type');//获得表头的一些数据
@@ -27,14 +24,16 @@ class clientController extends Controller
         //表头为种类确认
         if ($headerType=='signUp'){
             //$client_info=client_info::insert($request);
-            $client_info=new client_info();
-            $client_info->client_name=$request['client_name'];
-            $client_info->client_passwd=$request['client_passwd'];
-            $client_info->save();
+            //$client_info=new client_info();
+            //$id=Uuid::generate(1);
+            //$client_info->client_id=1;
+            //$client_info->client_name=$request['client_name'];
+            //$client_info->client_passwd=$request['client_passwd'];
+            //$client_info->save();
             ///$client_info=client_info::create($request);
             //$client_info->created_at();
             //$client_info->save();
-           echo $client_info;
+           echo $request;
         }else{return'失败了';}
 
     }
