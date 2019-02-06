@@ -17,5 +17,5 @@ Route::get('/', function () {
              //地址，//控制器controller 控制器名称@方法
 Route::get('/user','userController@User');
 
-Route::post('/geturl','userController@GetUrl');
-Route::any('/clientlogon','clientController@postRegister');
+Route::any('/geturl','userController@uniqIDfunction');
+Route::any('/clientlogon','clientController@SignUp');
