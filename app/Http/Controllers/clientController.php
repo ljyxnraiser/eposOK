@@ -24,16 +24,18 @@ class clientController extends Controller
         //表头为种类确认
         if ($headerType=='signUp'){
             //$client_info=client_info::insert($request);
-            //$client_info=new client_info();
-            //$id=Uuid::generate(1);
-            //$client_info->client_id=1;
-            //$client_info->client_name=$request['client_name'];
-            //$client_info->client_passwd=$request['client_passwd'];
+            $time=time();
+            $client_info=new client_info();
+            $client_info->client_id=substr($time,-5)*100+random_int(1,99)+pow(10,7)*8;
+            $client_info->client_name=$request['client_name'];
+            $client_info->client_passwd=$request['client_passwd'];
+            $client_info->client_status=0;
+            $client_info->client_sum=0;
             //$client_info->save();
             ///$client_info=client_info::create($request);
             //$client_info->created_at();
-            //$client_info->save();
-           echo $request;
+            $client_info->save();
+           return $client_info;
         }else{return'失败了';}
 
     }
