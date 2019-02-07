@@ -265,10 +265,6 @@ class ComposerStaticInit4c2855155719fc9cdc1744fea78445c0
         ),
         'W' => 
         array (
-            'Webpatser\\Uuid' => 
-            array (
-                0 => __DIR__ . '/..' . '/webpatser/laravel-uuid/src',
-            ),
             'Way\\Generators' => 
             array (
                 0 => __DIR__ . '/..' . '/xethron/laravel-4-generators/src',
@@ -3404,9 +3400,6 @@ class ComposerStaticInit4c2855155719fc9cdc1744fea78445c0
         'Way\\Generators\\Templates\\Data\\Controller' => __DIR__ . '/..' . '/xethron/laravel-4-generators/src/Way/Generators/templates/Data/Controller.php',
         'Way\\Generators\\Templates\\Data\\Migration' => __DIR__ . '/..' . '/xethron/laravel-4-generators/src/Way/Generators/templates/Data/Migration.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
-        'Webpatser\\Uuid\\Uuid' => __DIR__ . '/..' . '/webpatser/laravel-uuid/src/Webpatser/Uuid/Uuid.php',
-        'Webpatser\\Uuid\\UuidFacade' => __DIR__ . '/..' . '/webpatser/laravel-uuid/src/Webpatser/Uuid/UuidFacade.php',
-        'Webpatser\\Uuid\\UuidServiceProvider' => __DIR__ . '/..' . '/webpatser/laravel-uuid/src/Webpatser/Uuid/UuidServiceProvider.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
         'Xethron\\MigrationsGenerator\\Generators\\FieldGenerator' => __DIR__ . '/..' . '/xethron/migrations-generator/src/Xethron/MigrationsGenerator/Generators/FieldGenerator.php',
         'Xethron\\MigrationsGenerator\\Generators\\ForeignKeyGenerator' => __DIR__ . '/..' . '/xethron/migrations-generator/src/Xethron/MigrationsGenerator/Generators/ForeignKeyGenerator.php',
