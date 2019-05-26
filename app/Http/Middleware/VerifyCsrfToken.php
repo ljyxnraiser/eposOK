@@ -14,5 +14,13 @@ class VerifyCsrfToken extends BaseVerifier
     protected $except = [
         'geturl',
         'clientlogon',
+        'login',
+        'loginout',
+        'loadMenu',
+        'vif',
+        'chargeMoney',
+        'buy',
+        'insertdish2menu',
+        'changepasswd'
     ];
 }
